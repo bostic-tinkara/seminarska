@@ -22,8 +22,8 @@ Za zagon programa potrebuje uporabnik naslednje knjižnice:
 - pandas: za analizo podatkov,
 - ast: za pravilno interpretacijo podatkovnih struktur (kot python).
 
-Uporabnik lahko program klonira z ukazom `git clone https://github.com/bostic-tinkara/seminarska.git`.
+Uporabnik lahko program klonira v ukazni vrstici z ukazom `git clone https://github.com/bostic-tinkara/seminarska.git`.
 
-Celoten program požene datoteka `main.py`, in sicer se mora pognati iz korenskega direktorija repozitorija: `seminarska/` (kjer se nahaja `main.py`), saj program uporablja relativne poti datotek.
+Celoten program požene datoteka `main.py` (v ukazni vrstici z ukazom `python main.py`), in sicer se mora pognati iz korenskega direktorija repozitorija: `seminarska/` (kjer se nahaja `main.py`), saj program uporablja relativne poti datotek. Program se izvaja dlje časa - okoli pol ure, saj zajem podatkov traja precej dolgo.
 
 V datoteki `analiza.ipynb` so že predstavljeni rezultati analize s pandas, sicer pa se celice ponovno zažene z uporabo primernega python jedra (s knjižnicama pandas in ast) in ukaza `Run All`.
