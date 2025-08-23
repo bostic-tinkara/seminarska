@@ -6,7 +6,7 @@ Med zajetimi podatki so šifre in imena Unescovih znamenitosti, njihova kategori
 ## Struktura repozitorija
 V mapi `lib/` so .py-datoteke, ki vsebujejo funkcije za pobiranje, izluščenje in shranitev podatkov ter pomožni funkciji.
 
-V mapi `podatki/` so datoteke HTML (ne vse) in datoteka `podatki.csv`, ki jih ustvari program.
+V mapi `podatki/` so datoteke, ki jih ustvari program: datoteke HTML (ne vse; med zagonom programa pa se ustvarijo vse) in datoteka `podatki.csv`.
 
 Datoteka `main.py` požene celoten program.
 
